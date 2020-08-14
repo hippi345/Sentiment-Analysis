@@ -8,12 +8,12 @@ app = Flask(__name__)
 # use decorators to link the function to a url
 @app.route('/')
 def home():
-    return "Hello, World!"  # return a string
+    return render_template('index.html')  # render home template
 
 
 @app.route('/welcome')
 def welcome():
-    return render_template('welcome.html')  # render a template
+    return render_template('welcome.html')  # render welcome template
 
 
 # start the server with the 'run()' method

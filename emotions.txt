@@ -483,7 +483,7 @@
  'inspiring': 'attracted',
  'judged': 'singled out',
  'justified': 'singled out',
- 'laughting': 'happy',
+ 'laughing': 'happy',
  'loved': 'loved',
  'loving': 'attached',
  'low': 'sad',

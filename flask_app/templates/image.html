@@ -18,6 +18,13 @@
             <br>
             <input type="submit">
         </form>
+        <h3>Overall sentiment is: {{vibe}}</h3>
+        <h3>Emotions detected: </h3>
+        <ul>
+            {% for item in counts %}
+                <ul>{{item}}</ul>
+            {% endfor %}
+        </ul>
     </div>
 </body>
 </html>
